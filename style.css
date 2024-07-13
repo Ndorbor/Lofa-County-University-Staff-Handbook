@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    background-color:aqua; color: black; font-size: 1rem;
+    font-family:sans-serif;
+}
+hr{border: 5px black solid;}
+h3{color: black;}
+#lculogo{width: 350px; height:400px;; border-radius: 20%;}
+
+#heading{background-color: white; color: black;}
+/* Responsive Styles */
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Mobile styles */
+    body {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles */
+    body {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Laptop styles */
+    body {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Desktop styles */
+    body {
+        padding: 40px;
+    }
+}
